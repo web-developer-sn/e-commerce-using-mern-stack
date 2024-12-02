@@ -17,7 +17,7 @@ app.use(express.json())
 app.use(cors())
 
 // database
-mongoose.connect("mongodb://127.0.0.1:27017/wd11ecommerce")
+mongoose.connect("mongodb://127.0.0.1:27017/ecommerce")
         .then(() => {
             console.log("database connection established");
         })
